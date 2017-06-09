@@ -9,7 +9,7 @@
         <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700" rel="stylesheet">
         <link rel="stylesheet" href="bower_components/font-awesome/css/font-awesome.min.css">
         <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css">
-        <link rel="stylesheet" href="bower_components/normalize-strings/normalize.js">
+        <link rel="stylesheet" href="bower_components/normalize/normalize.css">
         <link rel="stylesheet" href="assets/css/style.css">
         <link rel="stylesheet" href="assets/css/queries.css">
     </head>
@@ -65,8 +65,8 @@
                         <img class="apple" src="assets/img/apple.png" alt="O melhor de 2016 pela App Store">
                         <h1>Baixe o <strong>aplicativo QuintoAndar!</strong></h1>
                         <p>Receba o link para download no seu celular:</p>
-                        <input type="text" name="" placeholder="Insira seu número">
-                        <button type="button" name="button">Enviar link!</button>
+                        <input id="phone" maxlength="15" type="tel" placeholder="Insira seu número"/>
+                        <button type="button" disabled="true" id="send">Enviar link!</button>
                     </div>
                 </div>
 
@@ -201,10 +201,12 @@
             </div>
         </footer>
 
+        <script src="assets/js/script.js"></script>
         <script src="bower_components/jquery/dist/jquery.js"></script>
+        <script src="assets/js/jquery.js"></script>
     	<script src="bower_components/angular/angular.js"></script>
     	<script src="bower_components/bootstrap/dist/js/bootstrap.js"></script>
-    	<script src="app/app.js"></script>
-    	<script src="app/controllers/main.js"></script>
+    	<!-- <script src="app/app.js"></script>
+    	<script src="app/controllers/main.js"></script> -->
     </body>
 </html>

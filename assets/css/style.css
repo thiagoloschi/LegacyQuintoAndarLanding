@@ -1,80 +1,35 @@
-/* Small devices (tablets, 768px and up) */
-@media (max-width: 560px) {
+@media (max-width: 520px) {
+  .download-text {
+    text-align: center; }
+    .download-text img {
+      width: auto; }
+    .download-text input {
+      width: 200px !important; }
+
+  .midia img {
+    width: 120px; }
+  .midia .col-xs-6 {
+    padding: 10px; }
+  .midia a {
+    margin: 10px; } }
+@media (max-width: 992px) {
   .download {
-    height: 560px; }
-    .download .apple {
-      height: 40px;
-      width: 290px;
-      margin: 0 115px; }
-    .download .download-text {
-      padding-top: 30px; }
-      .download .download-text h1 {
-        font-weight: 300;
-        font-size: 30px;
-        color: #505050; }
-      .download .download-text p {
-        font-size: 16px;
-        color: #505050;
-        padding: 0;
-        text-align: justify;
-        line-height: 18px; }
-      .download .download-text input {
-        box-sizing: border-box;
-        width: 320px;
-        height: 40px;
-        padding: 10px 20px;
-        border: 0;
-        float: left;
-        font-size: 15px; }
-      .download .download-text button {
-        font-weight: bold;
-        border: solid 2px #9d9d9d;
-        color: #9d9d9d;
-        cursor: default;
-        background-color: transparent;
-        background: 0;
-        width: 120px;
-        height: 40px;
-        align-items: center;
-        justify-content: center;
-        font-size: 15px;
-        font-weight: bold;
-        margin-left: 10px;
-        overflow: hidden; }
+    height: 100%;
+    padding-bottom: 30px;
+    width: 100%; }
 
-  .cellphones {
-    bottom: 50px;
-    z-index: 10;
-    padding: 0 115px; }
+  .download-text {
+    text-align: center; }
+    .download-text p {
+      text-align: center !important; }
 
-  .android {
-    float: left;
-    width: 180px;
-    height: 325px;
-    margin-right: -25px; }
-
-  .iphone {
-    float: right;
-    width: 167px;
-    height: 324px;
-    margin-top: 15px;
-    margin-left: -15px; } }
-@media (min-width: 561px) and (max-width: 950px) {
-  .download .cellphones {
-    bottom: 50px;
-    z-index: 10;
-    padding: 0 80px; }
-  .download .android {
-    float: left;
-    width: 180px;
-    height: 325px;
-    margin-right: -25px; }
-  .download .iphone {
-    float: right;
-    width: 167px;
-    height: 324px;
-    margin-top: 15px;
-    margin-left: -15px; } }
+  .midia a img {
+    margin: 0 30px; } }
+@media (min-width: 520px) and (max-width: 992px) {
+  .download-text {
+    text-align: center; }
+    .download-text img {
+      margin: 0 20%; } }
 body {
   font-size: 12px;
   background-color: #fff;
@@ -187,7 +142,8 @@ section {
 .download {
   width: 100%;
   height: 228px;
-  background: #dcdcdc; }
+  background: #dcdcdc;
+  margin: auto; }
   .download strong {
     font-weight: 600 !important; }
   .download .apple {
@@ -206,46 +162,39 @@ section {
       text-align: justify;
       line-height: 18px; }
     .download .download-text input {
-      box-sizing: border-box;
       width: 320px;
       height: 40px;
       padding: 10px 20px;
       border: 0;
-      float: left;
       font-size: 15px; }
     .download .download-text button {
       font-weight: bold;
+      background-color: inherit;
       border: solid 2px #9d9d9d;
       color: #9d9d9d;
-      cursor: default;
-      background-color: transparent;
-      background: 0;
       width: 120px;
       height: 40px;
-      align-items: center;
-      justify-content: center;
       font-size: 15px;
       font-weight: bold;
-      margin-left: 10px;
-      overflow: hidden; }
+      margin-left: 10px; }
 
 .cellphones {
   bottom: 50px;
-  z-index: 10;
-  padding: 0 130px; }
+  position: relative;
+  margin: auto;
+  width: 350px; }
 
 .android {
   float: left;
   width: 180px;
-  height: 325px;
-  margin-right: -25px; }
+  height: 325px; }
 
 .iphone {
   float: right;
   width: 167px;
   height: 324px;
   margin-top: 15px;
-  margin-left: -15px; }
+  margin-left: -20%; }
 
 .description {
   clear: both;

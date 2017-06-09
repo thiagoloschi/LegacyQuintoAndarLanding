@@ -160,6 +160,7 @@ section{
     width: 100%;
     height: 228px;
     background: #dcdcdc;
+    margin: auto;
 
     strong{
         font-weight: 600!important
@@ -188,30 +189,23 @@ section{
         }
 
         input{
-            box-sizing: border-box;
             width: 320px;
             height: 40px;
             padding: 10px 20px;
             border: 0;
-            float: left;
             font-size: 15px;
         }
 
         button{
             font-weight: bold;
+            background-color: inherit;
             border: solid 2px #9d9d9d;
             color: #9d9d9d;
-            cursor: default;
-            background-color: transparent;
-            background: 0;
             width: 120px;
             height: 40px;
-            align-items: center;
-            justify-content: center;
             font-size: 15px;
             font-weight: bold;
             margin-left: 10px;
-            overflow: hidden;
         }
     }
 }
@@ -219,16 +213,15 @@ section{
 .cellphones{
     // position: absolute;
     bottom: 50px;
-    z-index: 10;
-    padding: 0 130px;
-
+    position: relative;
+    margin: auto;
+    width: 350px;
 }
 
 .android{
     float: left;
     width: 180px;
     height: 325px;
-    margin-right: -25px;
 }
 
 .iphone{
@@ -236,7 +229,7 @@ section{
     width: 167px;
     height: 324px;
     margin-top: 15px;
-    margin-left: -15px;
+    margin-left: -20%;
 
 }
 
