@@ -1,4 +1,5 @@
 @import 'variables.scss';
+@import 'queries.scss';
 
 body{
     font-size: 12px;
@@ -8,6 +9,7 @@ body{
     margin: 0;
     -webkit-font-smoothing: antialiased;
     font-family: 'Lato','lato';
+    width: 100%;
 };
 
 header{
@@ -18,6 +20,16 @@ header{
     background-size: cover;
     background-repeat: no-repeat;
     padding-bottom: 110px;
+
+    .menu{
+        margin-top: 21px;
+        padding: 0;
+        border: none;
+        img{
+            height: 40px;
+        }
+
+    }
 
     .navbar{
         background-color: transparent;
@@ -52,9 +64,14 @@ header{
         }
 
         .favoritos{
+            font-size: 15px;
             border: none;
             border-right: 2px solid #fff;
-            padding: 0 23px;
+            padding: 0 23px 5px 23px;
+        }
+
+        .fav{
+            margin: 8px 5px 0 0;
         }
 
         .entrar{
@@ -68,10 +85,6 @@ header{
         .navbar-default .navbar-nav > li > a{
             color: inherit;
 
-        }
-
-        .fav{
-            font-size: 20px;
         }
     }
 
@@ -207,23 +220,24 @@ section{
     // position: absolute;
     bottom: 50px;
     z-index: 10;
-    margin: auto;
-    padding-left: 205px;
-    padding-right: 65px;
+    padding: 0 130px;
+
 }
 
 .android{
     float: left;
     width: 180px;
     height: 325px;
+    margin-right: -25px;
 }
 
 .iphone{
     float: right;
     width: 167px;
     height: 324px;
-    margin-left: -205px;
     margin-top: 15px;
+    margin-left: -15px;
+
 }
 
 .description{
@@ -259,8 +273,9 @@ section{
         -webkit-font-smoothing: antialiased;
     }
 
-    hr{
-        width: 700px;
+    .hr{
+        max-width: 700px;
+        min-width: 330px;
         background-color: black;
         display: inline-block;
         box-shadow: 0 0 1px 1px rgba(200,200,200,0.4);
@@ -334,12 +349,29 @@ section{
     padding: 50px;
     box-sizing: border-box;
     color: white;
-    text-align: center;
-    padding-left: 0;
+
+    padding: 50px 0;
+
+    ul{
+        list-style: none;
+        li{
+            width: 100%;
+        }
+    }
+
+    a{
+        text-decoration: none;
+        color: inherit;
+    }
 
     img{
         left: 5px;
         height: 85px;
+    }
+
+    .title{
+        color: #808080;
+        font-size: 13px;
     }
 }
 
