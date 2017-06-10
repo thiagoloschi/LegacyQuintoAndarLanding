@@ -51,7 +51,6 @@ $(document).ready(function() {
         $('#menu-itm').css({"display":"block"});
         $('#anunciar').css({"display":"none"});
         $('#fav').css({"display":"none"});
-
     }
 
 });

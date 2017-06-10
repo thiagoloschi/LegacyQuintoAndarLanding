@@ -6,7 +6,7 @@
 <p>This is the redesign of QuintoAndar's landing page in an attempting to build a more mobile friendly approach, assuring responsiveness, mainly when resizing the window. In this version, I also implemented a new trend menu and a telephone number mask solution in pure JS, to handle the 9th digit.</p>
 
 <li><h3>Tecnologies</h3></li>
-<p>I decided to use bootstrap because it seemed to be the best solution for a short period of time. I would have chosen to use Flexbox if I'd had a little more time for that.  I also used some jquery to handle the events.</p>
+<p>I decided to use bootstrap because it seemed to be the best solution for a short period of time. I would have chosen to use Flexbox if I had a little more time for that.  I also used some jquery to handle the events and SCSS for the css.</p>
 
 <li><h3>Live Demo</h3></li>
 <a href="http://thiagoloschi.com/quintoandar">http://thiagoloschi.com/quintoandar</a>
