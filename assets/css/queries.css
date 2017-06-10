@@ -1,6 +1,12 @@
 @media (max-width: 520px) {
   header {
     background-position: 22% 30% !important; }
+    header .form-control {
+      padding: 20px 10px !important;
+      transition: all .2s ease;
+      color: #808080;
+      font-size: 12px !important;
+      height: 53px; }
 
   .download-text {
     text-align: center; }
@@ -27,6 +33,18 @@
       height: 24px !important;
       width: 45px !important; }
 
+  #menu-button:hover {
+    background-color: transparent; }
+  #menu-button:active {
+    background-color: transparent; }
+
+  .navbar-default .navbar-toggle {
+    background-color: transparent; }
+    .navbar-default .navbar-toggle:hover {
+      background-color: transparent; }
+    .navbar-default .navbar-toggle:focus {
+      background-color: transparent; }
+
   #anunciar {
     padding: 10px 45px;
     margin-top: 22px;
@@ -43,6 +61,9 @@
     margin-right: 8px;
     font-weight: bold;
     margin: 50px auto; }
+    #anunciar:hover {
+      background-color: #fff;
+      color: #50a0f0; }
 
   .download {
     height: 100%;
