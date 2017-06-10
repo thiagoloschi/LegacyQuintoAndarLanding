@@ -19,16 +19,17 @@
             <nav class="navbar navbar-default">
                 <div class="container-fluid">
                     <div class="navbar-header">
-                        <button type="button" class="navbar-toggle collapsed menu" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                        <button id="menu-button" type="button" class="navbar-toggle collapsed menu" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
                          <img src="https://d29k9pp6ge5sv1.cloudfront.net/searchStaticProducao/940/img/compressed/5a-menu-branco.svg.gz" alt="">
                        </button>
                         <a class="navbar-brand" href="https://www.quintoandar.com.br/">
                             <img alt="Brand" src="https:d29k9pp6ge5sv1.cloudfront.net/searchStaticProducao/940/img/compressed/5a-logo.svg.gz">
                         </a>
+                        <button type="button" id="fav" class="pull-right navbar-btn"" name="button"><svg i width="22" height="21" viewBox="0 0 22 21" xmlns="http://www.w3.org/2000/svg"><title>E07436E0-ED97-43CB-B0E3-6A88D4585AE4</title><g fill="none" fill-rule="evenodd"><path d="M-1-2h24v24H-1z"/><path d="M11 19.42l-1.4-1.37C4.4 13.55 1 10.52 1 6.8c0-3.03 2.4-5.38 5.5-5.38 1.7 0 3.4.784 4.5 2.055 1.1-1.27 2.8-2.054 4.5-2.054 3.1 0 5.5 2.35 5.5 5.38 0 3.72-3.4 6.75-8.6 11.25L11 19.42z" stroke="#FFF" stroke-width="1.5"/></g></svg></button>
                     </div>
 
                     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                      <ul class="nav navbar-nav navbar-right">
+                      <ul id="menu-itm" class="nav navbar-nav navbar-right">
                         <li><button type="button" class="btn btn-default navbar-btn anunciar">Anunciar imóvel</button></li>
                         <li><button type="button" class="btn btn-default navbar-btn favoritos"><svg class="fav" width="22" height="21" viewBox="0 0 22 21" xmlns="http://www.w3.org/2000/svg"><title>E07436E0-ED97-43CB-B0E3-6A88D4585AE4</title><g fill="none" fill-rule="evenodd"><path d="M-1-2h24v24H-1z"/><path d="M11 19.42l-1.4-1.37C4.4 13.55 1 10.52 1 6.8c0-3.03 2.4-5.38 5.5-5.38 1.7 0 3.4.784 4.5 2.055 1.1-1.27 2.8-2.054 4.5-2.054 3.1 0 5.5 2.35 5.5 5.38 0 3.72-3.4 6.75-8.6 11.25L11 19.42z" stroke="#FFF" stroke-width="1.5"/></g></svg> Favoritos </button><button type="button" class="btn btn-default navbar-btn entrar">Entrar</button></li>
                         <li></li>
@@ -39,6 +40,7 @@
 
             <article>
                 <div class="container">
+                    <button id="anunciar" type="button" class="btn btn-default navbar-btn anunciar">Anunciar imóvel</button>
                     <h1>O jeito fácil de alugar e morar</h1>
                     <h2>Alugue rápido, sem fiador e com segurança!</h2>
                     <div class="row">
@@ -134,55 +136,69 @@
 
 
         <section class="sites">
-            <div class="col-md-3 col-sm-12 col-xs-12">
-                <div class="logo">
-                    <a  href="https://www.quintoandar.com.br/">
-                        <img src="https:d29k9pp6ge5sv1.cloudfront.net/searchStaticProducao/940/img/compressed/5a-logo.svg.gz">
-                    </a>
-                </div>
-            </div>
-            <div class="col-md-9 col-xs-12 col-sm-12">
-                <div class="col-sm-3">
-                    <ul>
-                        <li class="title">QUANTO COBRAR?</li>
-                        <li><a href="#">Calcule seu aluguel</a></li>
-                        <li class="title">NAVEGUE</li>
-                        <li><a href="#">Todos os imóveis</a></li>
-                        <li><a href="#">Imóveis em São Paulo</a></li>
-                        <li><a href="#">Imóveis em Campinas</a></li>
-                    </ul>
+            <div class="container">
+
+                <div class="foto col-md-3 col-sm-12 col-xs-12">
+                    <div class="logo">
+                        <a  href="https://www.quintoandar.com.br/">
+                            <img src="https://d29k9pp6ge5sv1.cloudfront.net/searchStaticProducao/940/img/compressed/5a-logo.svg.gz">
+                        </a>
+                    </div>
                 </div>
 
-                <div class="col-sm-3">
-                    <ul>
-                        <li class="title">COMO FUNCIONA</li>
-                        <li><a href="#">Para você inquilino</a></li>
-                        <li><a href="#">Para você proprietário</a></li>
-                        <li><a href="#">Indique um imóvel</a></li>
-                        <li><a href="#">Ajuda</a></li>
-                    </ul>
-                </div>
-                <div class="col-sm-3">
-                    <ul>
-                        <li class="title">O QUINTO ANDAR</li>
-                        <li><a href="#">Quem somos</a></li>
-                        <li><a href="#">Carreiras</a></li>
-                        <li><a href="#">Imprensa</a></li>
-                        <li><a href="#">Fale conosco</a></li>
-                    </ul>
-                </div>
-                <div class="col-sm-3">
-                    <ul>
-                        <li class="title">FIQUE CONECTADO</li>
-                        <li><a href="#">Facebook</a></li>
-                        <li><a href="#">Instagram</a></li>
-                        <li><a href="#">Twitter</a></li>
-                        <li<a href="#">Medium</a></li>
-                        <li><a href="#">Linkedin</a></li>
-                    </ul>
+                <div class="lista col-md-9 col-xs-12 col-sm-12">
+                    <div class="col-sm-6 col-xs-12">
+
+
+                            <div class="col-sm-6 col-xs-6">
+                                <ul>
+                                    <li class="title">QUANTO COBRAR?</li>
+                                    <li><a href="#">Calcule seu aluguel</a></li>
+                                    <li class="title">NAVEGUE</li>
+                                    <li><a href="#">Todos os imóveis</a></li>
+                                    <li><a href="#">Imóveis em São Paulo</a></li>
+                                    <li><a href="#">Imóveis em Campinas</a></li>
+                                </ul>
+                            </div>
+
+                            <div class="col-sm-6 col-xs-6">
+                                <ul>
+                                    <li class="title">COMO FUNCIONA</li>
+                                    <li><a href="#">Para você inquilino</a></li>
+                                    <li><a href="#">Para você proprietário</a></li>
+                                    <li><a href="#">Indique um imóvel</a></li>
+                                    <li><a href="#">Ajuda</a></li>
+                                </ul>
+                            </div>
+
+                    </div>
+
+                    <div class="col-sm-6 col-xs-12">
+
+                        <div class="col-xs-6">
+                            <ul>
+                                <li class="title">O QUINTO ANDAR</li>
+                                <li><a href="#">Quem somos</a></li>
+                                <li><a href="#">Carreiras</a></li>
+                                <li><a href="#">Imprensa</a></li>
+                                <li><a href="#">Fale conosco</a></li>
+
+                            </ul>
+                        </div>
+                        <div class="col-sm-3 col-xs-6">
+                            <ul>
+                                <li class="title">FIQUE CONECTADO</li>
+                                <li><a href="#">Facebook</a></li>
+                                <li><a href="#">Instagram</a></li>
+                                <li><a href="#">Twitter</a></li>
+                                <li<a href="#">Medium</a></li>
+                                <li><a href="#">Linkedin</a></li>
+                            </ul>
+                        </div>
+                    </div>
+
 
                 </div>
-
             </div>
 
         </section>

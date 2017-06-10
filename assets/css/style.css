@@ -1,4 +1,7 @@
 @media (max-width: 520px) {
+  header {
+    background-position: 22% 30% !important; }
+
   .download-text {
     text-align: center; }
     .download-text img {
@@ -13,6 +16,34 @@
   .midia a {
     margin: 10px; } }
 @media (max-width: 992px) {
+  header {
+    background-position: 50% 30%; }
+
+  #fav {
+    right: 10px;
+    border: none;
+    padding-top: 5px; }
+    #fav svg {
+      height: 24px !important;
+      width: 45px !important; }
+
+  #anunciar {
+    padding: 10px 45px;
+    margin-top: 22px;
+    background-color: transparent;
+    color: #fff;
+    border-radius: 0px;
+    border: solid 2px white;
+    text-align: center;
+    transition: all .2s;
+    font-size: 18px;
+    overflow: hidden;
+    min-height: 36px;
+    margin-left: 15px;
+    margin-right: 8px;
+    font-weight: bold;
+    margin: 50px auto; }
+
   .download {
     height: 100%;
     padding-bottom: 30px;
@@ -24,7 +55,13 @@
       text-align: center !important; }
 
   .midia a img {
-    margin: 0 30px; } }
+    margin: 0 30px; }
+
+  .sites {
+    width: 100%; }
+
+  .lista {
+    padding-left: 10px !important; } }
 @media (min-width: 520px) and (max-width: 992px) {
   .download-text {
     text-align: center; }
@@ -279,21 +316,35 @@ section {
   display: flex;
   padding: 50px;
   box-sizing: border-box;
-  color: white;
-  padding: 50px 0; }
+  color: white; }
+  .sites .logo {
+    padding-bottom: 20px;
+    width: 100%; }
+    .sites .logo img {
+      margin-right: 250px;
+      margin: auto;
+      position: relative;
+      width: 320px; }
+  .sites .lista {
+    margin: 0;
+    padding-left: 100px; }
   .sites ul {
-    list-style: none; }
+    min-width: 150px;
+    list-style: none;
+    padding: 3px 0 6px 0; }
     .sites ul li {
-      width: 100%; }
+      padding-bottom: 1px;
+      width: 100%;
+      font-size: 13px; }
   .sites a {
     text-decoration: none;
     color: inherit; }
-  .sites img {
-    left: 5px;
-    height: 85px; }
   .sites .title {
     color: #808080;
-    font-size: 13px; }
+    font-size: 13px;
+    padding: 18px 0 5px 0;
+    margin: 0;
+    text-align: left; }
 
 footer {
   padding: 10px;

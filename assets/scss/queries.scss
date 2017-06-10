@@ -1,4 +1,9 @@
 @media (max-width: 520px) {
+
+    header{
+        background-position: 22% 30%!important;
+    }
+
     .download-text{
         text-align: center;
         img{
@@ -29,6 +34,44 @@
 
 
 @media (max-width: 992px) {
+
+    header{
+        background-position: 50% 30%;
+    }
+
+    #fav{
+        right: 10px;
+        border: none;
+        padding-top: 5px;
+        svg{
+            height: 24px!important;
+            width: 45px!important;
+        }
+
+    }
+
+    #menu-button{
+    }
+
+
+    #anunciar{
+        padding: 10px 45px;
+        margin-top: 22px;
+        background-color: transparent;
+        color: #fff;
+        border-radius: 0px;
+        border: solid 2px white;
+        text-align: center;
+        transition: all .2s;
+        font-size: 18px;
+        overflow: hidden;
+        min-height: 36px;
+        margin-left: 15px;
+        margin-right: 8px;
+        font-weight: bold;
+        margin: 50px auto;
+    }
+
     .download{
         height: 100%;
         padding-bottom: 30px;
@@ -50,6 +93,14 @@
             }
 
         }
+    }
+
+    .sites{
+        width: 100%;
+    }
+
+    .lista{
+        padding-left: 10px!important;
     }
 }
 
