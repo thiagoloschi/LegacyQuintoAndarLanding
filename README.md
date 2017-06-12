@@ -15,7 +15,7 @@
 
 </ul>
 
-<img src="assets/img/menu.png"/>
+<center><img src="assets/img/menu.png"/>
 <h6 align="center">New menu</h6>
 
 <img src="assets/img/1.png"/>

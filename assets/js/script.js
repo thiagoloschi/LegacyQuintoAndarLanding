@@ -1,7 +1,7 @@
 // Inicia o script assim que a página é carregada
 window.onload = function(){
     // Adiciona o tratador de eventos no input
-    document.getElementById('phone').onkeyup = function(){
+    document.getElementById('phone').onkeypress = function(){
 		mask( this, validate );
 	}
 }
