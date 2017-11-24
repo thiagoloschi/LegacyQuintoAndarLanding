@@ -1,8 +1,11 @@
 # QuintoLandingPage
 
-<ul>
+# Index
+1. [Description](#description)
+2. [Portrait](#portrait)
+3. [Landscape](#landscape)
 
-<li><h3>Description</h3></li>
+## Description
 <p>This is the redesign of QuintoAndar's landing page in an attempting to build a more mobile friendly approach, assuring responsiveness, mainly when resizing the window. In this version, I also implemented a new trend menu and a telephone number mask solution in pure JS, to handle the 9th digit.</p>
 
 <li><h3>Tecnologies</h3></li>
@@ -13,16 +16,16 @@
 
 <li><h3>Screenshots</h3></li>
 
-</ul>
-
 <center><img src="assets/img/menu.png"/>
 <h6 align="center">New menu</h6>
 
-<img src="assets/img/1.png"/>
-<h6 align="center">Portrait Mode</h6>
 
+
+## Portrait
+<img src="assets/img/1.png"/>
 <br/><br/><br/>
 
 <img src="assets/img/2.png"/>
-<h6 align="center">Landscape Mode</h6>
+
+## Landscape
 <br/><br/><br/>
