@@ -1,24 +1,32 @@
-<ul>
+# QuintoLandingPage
 
-<li><h3>Description</h3></li>
-<p>This is the redesign of QuintoAndar's landing page in an attempting to build a more mobile friendly approach, assuring responsiveness, mainly when resizing the window. In this version, I also implemented a new trend menu and a telephone number mask solution in pure JS, to handle the 9th digit.</p>
+1. [Description](#description)
+2. [Technologies](#technologies)
+3. [Website](#website)
+4. [Screenshots](#screenshots)
+<br/>
 
-<li><h3>Tecnologies</h3></li>
-<p>I decided to use bootstrap because it seemed to be the best solution for a short period of time. I would have chosen to use Flexbox if I had a little more time for that.  I also used some jquery to handle the events and SCSS for the css.</p>
+### Description
+This is a redesign of the QuintoAndar's early 2017's landing page, the website was completely remodeled some months later. In this version, made as a challenge, I had to build a more mobile friendly approach than what they have at the moment, assuring responsiveness, also when resizing the window. I also implemented a new trend menu and a phone number mask solution in pure JS, ready to handle the 9th digit.
+<br/>
 
-<li><h3>Live Demo</h3></li>
-<a href="http://thiagoloschi.com/quintoandar">http://thiagoloschi.com/quintoandar</a>
+### Technologies
+HTML5, CSS3, JQuery, Javascript, Bootsrap
+<br/>
 
-<li><h3>Screenshots</h3></li>
+### Website
+You can see it live at http://thiagoloschi.com/quintoandar.
+<br/>
 
-</ul>
+### Screenshots
+<br/>
 
-<center><img src="assets/img/menu.png"/>
-<h6 align="center">New menu</h6>
+<img src="assets/img/menu.png"/>
+<h6>New menu</h6>
+<br/><br/><br/>
 
 <img src="assets/img/1.png"/>
-<h6 align="center">Portrait Mode</h6>
-
+<h6>Portrait Mode</h6>
 <br/><br/><br/>
 
 <img src="assets/img/2.png"/>
