@@ -7,7 +7,7 @@
 <br/>
 
 ### Description
-This is a redesign of the QuintoAndar's early 2017's landing page, the website was completely remodeled some months later. In this version, made as a challenge, I had to build a more mobile friendly approach than what they have at the moment, assuring responsiveness, also when resizing the window. I also implemented a new trend menu and a phone number mask solution in pure JS, ready to handle the 9th digit.
+This is a redesign of the QuintoAndar's early 2017's landing page, the website was completely remodeled some months later. In this version, made as a challenge, I had to build a more mobile friendly approach than what they had at the moment, assuring responsiveness, also when resizing the window. I also implemented a new trend menu and a phone number mask solution in pure JS, ready to handle the 9th digit.
 <br/>
 
 ### Technologies
